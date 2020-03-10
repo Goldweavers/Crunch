@@ -1,5 +1,5 @@
 {
-  "name": "inf36207_md5",
+  "name": "crunch",
   "version": "1.0.0",
   "main": "./crunch.js",
   "bin": "./crunch.js",
@@ -16,5 +16,10 @@
   },
   "devDependencies": {
     "pkg": "^4.4.3"
+  },
+  "pkg": {
+    "scripts": [
+      "lib/**/*.js"
+    ]
   }
 }
